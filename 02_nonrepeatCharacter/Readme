@@ -1,0 +1,28 @@
+firstNonRepeatedCharacter
+
+문제
+
+임의의 문자열을 입력받아 문자열 내에서 동일한 문자가 연속된 위치에서 반복되지 않는 경우를 찾아 해당 문자를 리턴해야 합니다.
+
+
+입력
+
+인자 1 : str
+string 타입의 공백이 없는 문자열
+
+
+출력
+string 타입을 리턴해야 합니다.
+
+
+주의사항
+조건을 만족하는 문자 중 가장 먼저 위치한 문자를 리턴해야 합니다.
+조건을 만족하는 문자가 없는 경우, null을 리턴해야 합니다.
+
+
+입출력 예시
+let ouput = firstNonRepeatedCharacter('ABA');
+console.log(output); // --> 'B'
+
+output = firstNonRepeatedCharacter('AACBDB');
+console.log(output); // --> 'C'
